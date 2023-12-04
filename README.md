@@ -6,8 +6,8 @@
 # Steps to Reproduce
 
 1. Run the following command: `./run-tests.sh`
-2. Open `ExampleProject.Tests/TestResults/CoverageReport`
+2. Open `ExampleProject.Tests/TestResults/CoverageReport/index.html`
 3. You can see that `MyAsyncClass` does not appear on the test results
 4. Edit coverlet.runsettings and remove `CompilerGeneratedAttribute`
-5. Run the command again and open the new results file
+5. Run the command again and open the `index.html` again.
 6. You can now see that `MyAsyncClass` is correctly covered, but `MyRecord` incorrectly shows missing coverage.
